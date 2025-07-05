@@ -1,0 +1,11 @@
+streamlit
+torch
+torchvision
+Pillow
+transformers
+ftfy
+regex
+tqdm
+gtts
+sentencepiece
+streamlit-lottie
