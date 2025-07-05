@@ -18,7 +18,7 @@ blip_model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image
 
 # Load T5
 t5_tokenizer = T5Tokenizer.from_pretrained("t5-small")
-t5_model = T5ForConditionalGeneration.from_pretrained("t5-small").to(DEVICE)
+t5_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-small").to("cpu")
 
 # Languages for gTTS
 LANG_OPTIONS = {
